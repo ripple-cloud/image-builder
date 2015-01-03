@@ -1,0 +1,2066 @@
+Package: bluez-libs
+Version: 5.13-1
+Depends: libc, libpthread, libusb, glib2, dbus, udev
+Source: package/bluez
+Section: libs
+Architecture: brcm2708
+Installed-Size: 40787
+Filename: bluez-libs_5.13-1_brcm2708.ipk
+Size: 41264
+MD5Sum: 1bdac47151bf9133819729a0217cd5f8
+SHA256sum: 06db2d4788e6b7826a026904da940e641e4fe137f8571176d1370294d9baa0ff
+Description:  Bluetooth libraries
+
+Package: bluez-utils
+Version: 5.13-1
+Depends: libc, bluez-libs
+Source: package/bluez
+Section: utils
+Architecture: brcm2708
+Installed-Size: 434607
+Filename: bluez-utils_5.13-1_brcm2708.ipk
+Size: 433568
+MD5Sum: 0a30120e574343997b878c7f0424c403
+SHA256sum: b1093707e2f5d6204faf69067ba39257a150e5e024947f35ece75e922365806b
+Description:  Bluetooth utilities
+
+Package: dbus-utils
+Version: 1.9.4-1
+Depends: libc, dbus
+Source: package/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 12326
+Filename: dbus-utils_1.9.4-1_brcm2708.ipk
+Size: 12890
+MD5Sum: 27bc6a9db73ae67e0bba4d8b11dda3d5
+SHA256sum: d2272e0a62eb676ec94539a6b8ef57e31d9b2e4a1945e50624034636f6f3e8b2
+Description:  Simple interprocess messaging system (utilities)
+
+Package: dbus
+Version: 1.9.4-1
+Depends: libc, libexpat, libdbus
+Source: package/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 248870
+Filename: dbus_1.9.4-1_brcm2708.ipk
+Size: 249309
+MD5Sum: 80649e3f8d6cbc0aa7acfddf2556de8d
+SHA256sum: bda9ab2ae78b344756da8215af1fc88aa7bdc13459a8cb0b3564a2a93320d659
+Description:  Simple interprocess messaging system (daemon)
+
+Package: dkjson
+Version: 2.5-1
+Depends: libc, lua
+Source: package/lang/dkjson
+License: MIT
+Section: lang
+Maintainer: Lars Gierth <larsg@systemli.org>
+Architecture: brcm2708
+Installed-Size: 6688
+Filename: dkjson_2.5-1_brcm2708.ipk
+Size: 7305
+MD5Sum: 32168c9d8c4ff37c8e7b5fe267a5ab59
+SHA256sum: ceaec5c37780019cefe4e9fbd36f444d94e6449f5d2bd7f365f9d2736bdcb040
+Description:  Lua JSON parser/serializer with UTF-8 support
+
+Package: erlang-asn1
+Version: 3.0.1
+Depends: libc, erlang, erlang-syntax-tools
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 842897
+Filename: erlang-asn1_3.0.1_brcm2708.ipk
+Size: 843836
+MD5Sum: 84d24b5126ba185283d606d2ade23a10
+SHA256sum: 91686e49065190204ecf9000e8a4dde28b76927ac8f80d6b0b72d3317469b30b
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides Abstract Syntax Notation One (ASN.1)
+ support.
+
+Package: erlang-compiler
+Version: 5.0.1
+Depends: libc, erlang, erlang-hipe
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 1203894
+Filename: erlang-compiler_5.0.1_brcm2708.ipk
+Size: 1203577
+MD5Sum: 658c3d2932fabcf8499de66207e66d27
+SHA256sum: d68bd6c49502c53f474c5e68898823baa9c19d1d78b1238d7fb6d9bc4523ac9d
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides a byte code compiler for Erlang which
+ produces highly compact code.
+
+Package: erlang-crypto
+Version: 3.4
+Depends: libc, erlang, libopenssl
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 103057
+Filename: erlang-crypto_3.4_brcm2708.ipk
+Size: 103815
+MD5Sum: 42d674c4f43fb069274632658de3ec92
+SHA256sum: 4eefefc43f407658ca433a0d411735934e53d8bb89df899784e16ab52fbb8796
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides functions for computation of message
+ digests, and encryption and decryption functions.
+
+Package: erlang-hipe
+Version: 3.11
+Depends: libc, erlang
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 1410608
+Filename: erlang-hipe_3.11_brcm2708.ipk
+Size: 1411100
+MD5Sum: 230b1ff039c7d8cacacb44ca6eeb850b
+SHA256sum: 968020b387714ad795a10e678f6e3aa1c7227dc633a2a770fe4f8806d1483fbe
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides HiPE (High Performance Erlang)
+ support.
+
+Package: erlang-inets
+Version: 5.10.2
+Depends: libc, erlang
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 835928
+Filename: erlang-inets_5.10.2_brcm2708.ipk
+Size: 836909
+MD5Sum: 5855c52e2a4fc55b1054402a114acb01
+SHA256sum: 1b8ab2fef809889691ce1cc05dd56e2e16c4b89db7b7d432b548a34192475dc5
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides a container for Internet clients and
+ servers. Currently a FTP client, a HTTP client and server, and a tftp
+ client and server have been incorporated in Inets.
+
+Package: erlang-mnesia
+Version: 4.12.1
+Depends: libc, erlang
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 738703
+Filename: erlang-mnesia_4.12.1_brcm2708.ipk
+Size: 739734
+MD5Sum: 997e19f15279d0c7164bd0d758a54c7a
+SHA256sum: 9698c75e175b08d856b49f05c75166d52addc9429c4142d491e5cfeb5569815d
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides a distributed DataBase Management
+ System (DBMS), appropriate for telecommunications applications and
+ other Erlang applications which require continuous operation and
+ exhibit soft real-time properties.
+
+Package: erlang-runtime-tools
+Version: 1.8.14
+Depends: libc, erlang
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 164035
+Filename: erlang-runtime-tools_1.8.14_brcm2708.ipk
+Size: 164871
+MD5Sum: 5a74aa57da1994feb4a107cdd3a169ea
+SHA256sum: 13ac2006f004850868b0fd6d3e2e07b9645a3421890a21a6fc90c8ddee585613
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides low footprint tracing/debugging tools
+ suitable for inclusion in a production system.
+
+Package: erlang-snmp
+Version: 4.25.1
+Depends: libc, erlang, erlang-asn1
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 1751716
+Filename: erlang-snmp_4.25.1_brcm2708.ipk
+Size: 1752271
+MD5Sum: 84e6c627620788c09dd866bf471768d7
+SHA256sum: 46be4478f904225f67fd0edebf55c38c39d10e5a46a7c982cea0286e6bdd795c
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides Simple Network Management Protocol
+ (SNMP) support including a MIB compiler and tools for creating SNMP
+ agents.
+
+Package: erlang-ssh
+Version: 3.0.3
+Depends: libc, erlang, erlang-crypto
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 398586
+Filename: erlang-ssh_3.0.3_brcm2708.ipk
+Size: 399466
+MD5Sum: 35a7b35ee03ef05985c3b7f84f273168
+SHA256sum: e58c07f6688cab3d45b5294dd484feee4be4106d621c8e8b6a109152a6fc1f68
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides an implementation of the Secure Shell
+ protocol, with SSH & SFTP support.
+
+Package: erlang-ssl
+Version: 5.3.5
+Depends: libc, erlang, erlang-crypto
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 625321
+Filename: erlang-ssl_5.3.5_brcm2708.ipk
+Size: 626225
+MD5Sum: 9705aa92cf8c544083d9a348f2f0dba6
+SHA256sum: 7f5db348a27d9d3d8b26474e8081884140e7f442a9c21466ea4c46eb80b33d65
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides support for secure communication over
+ sockets.
+
+Package: erlang-syntax-tools
+Version: 1.6.15
+Depends: libc, erlang
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 325044
+Filename: erlang-syntax-tools_1.6.15_brcm2708.ipk
+Size: 325922
+MD5Sum: e240977643d9176ca71d3ab19da43db7
+SHA256sum: 78e247286ff9f43173907dddec848ce761cbf1f101e6f4686a81bdcf12cfa860
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This Erlang/OTP package provides support for handling abstract Erlang
+ syntax trees.
+
+Package: erlang
+Version: 17.3-1
+Depends: libc, libncurses, librt, zlib
+Provides: erlang-erts=6.1 erlang-kernel=3.0.1 erlang-sasl=2.4 erlang-stdlib=2.1
+Source: package/lang/erlang
+License: ErlPL-1.1
+LicenseFiles: EPLICENCE
+Section: lang
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 4845422
+Filename: erlang_17.3-1_brcm2708.ipk
+Size: 4843514
+MD5Sum: 9c38ae8e46a3b51f94f79e79f70d107f
+SHA256sum: ce91f69c23f7ee3601de2a43d80b613daef076680f5dafe2cd148f832d546b53
+Description:  Erlang/OTP is a general-purpose programming language and runtime
+ environment. Erlang has built-in support for concurrency, distribution
+ and fault tolerance.
+ .
+ This package contains the runtime implementation and a minimal set of
+ modules (erts, kernel, sasl & stdlib).
+
+Package: glib2
+Version: 2.42.1-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: package/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm2708
+Installed-Size: 816072
+Filename: glib2_2.42.1-1_brcm2708.ipk
+Size: 811990
+MD5Sum: e80452a1f054acf3d5e06f4098c56e4d
+SHA256sum: b1909dc5e28b99c66a2a260f7c6a780358327a26354a797dd4720852b8b522d3
+Description:  The GLib library of C routines
+
+Package: libdbus
+Version: 1.9.4-1
+Depends: libc, libpthread
+Source: package/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 95989
+Filename: libdbus_1.9.4-1_brcm2708.ipk
+Size: 96411
+MD5Sum: d581334c4a23b67283a763ef95ffc5bb
+SHA256sum: 9e93fc2c3f7d362e0a75f7671e7b109193575ceefa50c1bc46ab4256db3589a1
+Description:  Simple interprocess messaging system (library)
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc
+Source: package/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 44117
+Filename: libexpat_2.1.0-3_brcm2708.ipk
+Size: 44681
+MD5Sum: c21cdb72c181185c70de90a0fee554fe
+SHA256sum: 9c2664e1a78577e3c12334fd0720a66a20299acb14439d4e477ee0e2ab2bfdc1
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: package/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm2708
+Installed-Size: 4794
+Filename: libffi_3.0.13-1_brcm2708.ipk
+Size: 5620
+MD5Sum: 52a788a4780cdaa9c2ebf2cea2089fe4
+SHA256sum: 06430036fbe9ee2b0cca9148d0cb1d7165354198cad7e46292c337b85eb3622d
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libfreetype
+Version: 17.2.11-1
+Depends: libc, zlib, libbz2
+Source: package/freetype
+License: FTL GPL-2.0 MIT ZLIB
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.txt src/bdf/README src/pcf/README src/gzip/zlib.h
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: brcm2708
+Installed-Size: 236899
+Filename: libfreetype_17.2.11-1_brcm2708.ipk
+Size: 237084
+MD5Sum: 9f399b91be239274792ff89d619f1c65
+SHA256sum: aaede8743f16567d5951d5348960ff81b16e4144658dcf5500102a3fdc2fd774
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital photography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libruby
+Version: 2.1.5-1
+Depends: libc, libpthread, librt, libgmp
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 736582
+Filename: libruby_2.1.5-1_brcm2708.ipk
+Size: 729616
+MD5Sum: 0c017e145d28adcc65dbe421b290aabb
+SHA256sum: 2ca8b4005270ecc031aafcf6bf9b643facc4e0e682a68fa44cb4ce4af46f0606
+Description:  Ruby scripting language (shared library)
+
+Package: libwayland
+Version: 20141123-59f255d66e4dad89f633deec535482faa8bd8561
+Depends: libc, libffi, libexpat, libpthread, librt
+Source: package/libwayland
+Section: rpi-libraries
+Architecture: brcm2708
+Installed-Size: 45631
+Filename: libwayland_20141123-59f255d66e4dad89f633deec535482faa8bd8561_brcm2708.ipk
+Size: 45671
+MD5Sum: cd6a7957e542dadade7a514f3a4efe02
+SHA256sum: 70fd2b515b9fdb8fd4daf5c30906b0931f9af5891a7a5ad151d5611c37dfccf2
+Description:  Wayland is intended as a simpler replacement for X, easier to develop and maintain.
+ This package contains wayland libraries.
+
+Package: lua-bencode
+Version: 2.1.0-1
+Depends: libc, lua
+Source: package/lang/lua-bencode
+License: MIT
+Section: lang
+Maintainer: Lars Gierth <larsg@systemli.org>
+Architecture: brcm2708
+Installed-Size: 1456
+Filename: lua-bencode_2.1.0-1_brcm2708.ipk
+Size: 2107
+MD5Sum: 396d42b192311ac01a2b39ef4a9efc84
+SHA256sum: 2574b6d02738a9f21004fb30aec0604ec6054806fb5e52758ccc5bc5a34d988e
+Description:  This is a module for the lua programming language for decoding and encoding
+ bencoded data which can be used to read and write torrent files for bittorrent.
+
+Package: lua-penlight
+Version: 1.3.1-1
+Depends: libc, luafilesystem
+Source: package/lang/lua-penlight
+License: MIT
+Section: lang
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: brcm2708
+Installed-Size: 96322
+Filename: lua-penlight_1.3.1-1_brcm2708.ipk
+Size: 96990
+MD5Sum: 2bed3ec43cdfe1bc902e2f0f9250b7e8
+SHA256sum: 3a507333eb3f4a4052f0456395cbeeddbde0e7aeade9836bbce182f2982761a7
+Description:  It is often said of Lua that it does not include batteries.
+ Penlight is the batteries.
+
+Package: lua-sha2
+Version: 0.2.0-1
+Depends: libc, lua
+Source: package/lang/lua-sha2
+License: MIT
+Section: lang
+Maintainer: Lars Gierth <larsg@systemli.org>
+Architecture: brcm2708
+Installed-Size: 6821
+Filename: lua-sha2_0.2.0-1_brcm2708.ipk
+Size: 7498
+MD5Sum: f72b0362384581b88c4b076bb77e0289
+SHA256sum: 9c54db2f04504836307e65189344ec6d426a578d032156a26468c5b5543c4298
+Description:  Lua Binding for the SHA-2 (SHA-256/384/512) BSD-licensed C implementation by Aaron Gifford.
+ Also contains a HMAC implementation in Lua.
+
+Package: luabitop
+Version: 1.0.2-1
+Depends: libc, lua
+Source: package/lang/luabitop
+License: MIT
+Section: lang
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm2708
+Installed-Size: 1913
+Filename: luabitop_1.0.2-1_brcm2708.ipk
+Size: 2529
+MD5Sum: f6ea27fc2e0279b689049848f1203b94
+SHA256sum: 97be439e0d6dbacd56b75756c3845b2cdaa40a93c9a0f4d90be76bf91de1eae9
+Description:  Lua BitOp is a C extension module for Lua 5.1/5.2 which adds bitwise operations on numbers.
+
+Package: luaexpat
+Version: 1.3.0-1
+Depends: libc, lua, libexpat
+Source: package/lang/luaexpat
+Section: lang
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm2708
+Installed-Size: 6247
+Filename: luaexpat_1.3.0-1_brcm2708.ipk
+Size: 6825
+MD5Sum: 92fad5692a74c1618422f78ca7593839
+SHA256sum: 947e4716d264f19752af1d5aad86d2cd3f977ed067116c588c5681b25064d22f
+Description:  LuaExpat is a SAX XML parser based on the Expat library.
+
+Package: luafilesystem
+Version: 1.6.2-1
+Depends: libc, liblua
+Source: package/lang/luafilesystem
+Section: lang
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm2708
+Installed-Size: 4828
+Filename: luafilesystem_1.6.2-1_brcm2708.ipk
+Size: 5431
+MD5Sum: 47819b66b262ac8e908febce1eed7de0
+SHA256sum: c072284c31eabd1f9600b5679fc01b692785bffa5e5d37b423d7383851b003f1
+Description:  This package contains the LuaFileSystem library, a set of portable
+ functions for directory creation, listing and deletion and for file
+ locking.
+
+Package: luai2c
+Version: 1.0.0-2
+Depends: libc, liblua, kmod-i2c-core
+Source: package/lang/luai2c
+Section: lang
+Maintainer: Frank Edelhaeuser <fedel@users.sourceforge.net>
+Architecture: brcm2708
+Installed-Size: 4061
+Filename: luai2c_1.0.0-2_brcm2708.ipk
+Size: 4654
+MD5Sum: 41f7cc06f69e03b9830c72e4db7d2dff
+SHA256sum: d015b1b7ecf8d46a29a23ebb9f12d20443cd3f4e48e81a643e9f95f80d985f0a
+Description:  This is the Lua binding for I2C. It provides access to I2C slaves supported by the kernel.
+
+Package: lualanes
+Version: 3.9.4-1
+Depends: libc, lua, luac, liblua, libpthread
+Source: package/lang/lualanes
+Section: lang
+Maintainer: Vladimir Malyutin <first-leon@yandex.ru>
+Architecture: brcm2708
+Installed-Size: 40360
+Filename: lualanes_3.9.4-1_brcm2708.ipk
+Size: 40959
+MD5Sum: f9a30449db82903d2f1d3633d8797007
+SHA256sum: 4622c957e41a572e1e7a3ac3ba6937c814dc7fd017eaa4febb17ce39cf2b735a
+Description:  Lanes is a lightweight, native, lazy evaluating multithreading library for Lua 5.1 and 5.2.
+
+Package: luaposix
+Version: v33.0.0-1
+Depends: libc, lua, librt, luabitop
+Source: package/lang/luaposix
+License: MIT
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: brcm2708
+Installed-Size: 32006
+Filename: luaposix_v33.0.0-1_brcm2708.ipk
+Size: 32414
+MD5Sum: 5411ac5ec3a6176640210e8b8b9d6c92
+SHA256sum: 8191e4f667570b8ea2a9b6119cbe68278ea6b627a9ee3cb7dfe6d50115a60a9b
+Description:  luaposix is a general POSIX library for Lua providing access
+ to various low level libc functions.
+
+Package: luasec
+Version: 0.4-1
+Depends: libc, lua, libopenssl, luasocket
+Source: package/lang/luasec
+Section: lang
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm2708
+Installed-Size: 10566
+Filename: luasec_0.4-1_brcm2708.ipk
+Size: 11136
+MD5Sum: 7b06e099efd583bd348691f8f4c6fe78
+SHA256sum: 0bffbffba1e507a96c2d57329c842f34dc9df3eb8bf2fe6a4ed6904b71da86de
+Description:  LuaSec is a binding for OpenSSL library to provide TLS/SSL communication.
+
+Package: luasoap
+Version: 2014-08-21-af1e100281cee4b972df10121e37e51d53367a98
+Depends: libc, lua, luaexpat, luasec, luasocket
+Source: package/lang/luasoap
+License: MIT
+Section: lang
+Maintainer: Liu Peng <pengliu@credosemi.com>
+Architecture: brcm2708
+Installed-Size: 9209
+Filename: luasoap_2014-08-21-af1e100281cee4b972df10121e37e51d53367a98_brcm2708.ipk
+Size: 9856
+MD5Sum: f891ec5c10610f621362eba02aa82cb7
+SHA256sum: 60947b7cabffe96fc53413a78468209031cfcc32ff35d88347b8e872c17ba2f8
+Description:  LuaSOAP is a library of functions to deal with SOAP.
+
+Package: luasocket
+Version: 3.0-rc1-20130909-2
+Depends: libc, lua
+Source: package/lang/luasocket
+Section: lang
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm2708
+Installed-Size: 34534
+Filename: luasocket_3.0-rc1-20130909-2_brcm2708.ipk
+Size: 35199
+MD5Sum: 4cdd35ab5d9eb7dc6cd0c06c63c4afa2
+SHA256sum: 2454a9d148825e39d8c716d3113388d7de38f5e6f9716aa54608e426c14625e0
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: micropython-lib
+Version: 0.1-20141028-610aa65ceff9f4b0a60514423f543aa807f49f76-1
+Depends: libc, micropython
+Source: package/lang/micropython-lib
+License: MIT, PSFL
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: brcm2708
+Installed-Size: 144994
+Filename: micropython-lib_0.1-20141028-610aa65ceff9f4b0a60514423f543aa807f49f76-1_brcm2708.ipk
+Size: 145846
+MD5Sum: 098a2f2dcec410b645757399c2c98a53
+SHA256sum: 787fb487e35ca0ecbf8cf5e5bc3d3b6a479cd475b49f3fbfcd541d59f0923a49
+Description:  This package contains micropython-lib, a project to develop a non-monolothic
+ standard library for Micro Python. Note that this is a work in progress and
+ several libraries may be missing, incomplete or buggy.
+
+Package: micropython
+Version: 1.3.7-20141209-e6e8ad8ab238cd596a3eedf8f4dd635e2e84f46e-1
+Depends: libc, libffi
+Source: package/lang/micropython
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: brcm2708
+Installed-Size: 114625
+Filename: micropython_1.3.7-20141209-e6e8ad8ab238cd596a3eedf8f4dd635e2e84f46e-1_brcm2708.ipk
+Size: 115168
+MD5Sum: 2264ad4d7c0c050be23cd7340c18e1dd
+SHA256sum: 21a6fc810c260302e85cfa1ae7237ad096e9c9ab81c3ebfe84558a6b2a6f56ee
+Description:  This package contains Micro Python, a lean and fast implementation of the Python 3.4 programming language
+ that is optimised to run on a microcontroller (and low power computers).
+
+Package: python-base
+Version: 2.7.8-3
+Depends: libc, libpthread, zlib, libffi, libopenssl
+Source: package/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 595986
+Filename: python-base_2.7.8-3_brcm2708.ipk
+Size: 591042
+MD5Sum: feb018432ac02412884e0b81395c514e
+SHA256sum: d0153e575b76822f723d5d06a2a25bd3711d86cf42dfbd6eb50d182b5934a5ce
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-dns
+Version: 1.12.0-1
+Depends: libc, python
+Source: package/lang/python-dns
+License: ISC
+LicenseFiles: LICENSE
+Section: language-python
+Maintainer: Denis Shulyaka <Shulyaka@gmail.com>
+Architecture: brcm2708
+Installed-Size: 90134
+Filename: python-dns_1.12.0-1_brcm2708.ipk
+Size: 90911
+MD5Sum: d1f68679319c00f2770aff2888880450
+SHA256sum: 5d17934d1754040a1f4cb3756c8808b55392acceb8a0287844d1b7e49bae0de0
+Description:  dnspython is a DNS toolkit for Python. It supports almost all record types. It can be used for queries, zone transfers, and dynamic updates. It supports TSIG authenticated messages and EDNS0.
+
+Package: python-imglib
+Version: 1.1.7-1
+Depends: libc, python, libfreetype, libjpeg, zlib
+Source: package/lang/python-imglib
+License: CUSTOM
+LicenseFiles: README
+Section: language-python
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Architecture: brcm2708
+Installed-Size: 249879
+Filename: python-imglib_1.1.7-1_brcm2708.ipk
+Size: 249654
+MD5Sum: 0c8d30861a2625589f223191272d7fa1
+SHA256sum: 273fd446df75652ea18d17b08a75e4aeb6401b8055e1de9100abb56d924431be
+Description:  The Python Imaging Library adds image processing capabilities to your
+ Python interpreter.
+ 
+ This library provides extensive file format support, an efficient
+ internal representation, and fairly powerful image processing
+ capabilities.
+ 
+ The core image library is designed for fast access to data stored in a
+ few basic pixel formats. It should provide a solid foundation for a
+ general image processing tool.
+
+Package: python-pip
+Version: 1.5.6-1
+Depends: libc, python, python-setuptools
+Source: package/lang/python-pip
+Section: lang
+Architecture: brcm2708
+Installed-Size: 926231
+Filename: python-pip_1.5.6-1_brcm2708.ipk
+Size: 914463
+MD5Sum: 665bec3f2064ab399085838a67902456
+SHA256sum: 13c7791724608c135557c41f872457085847035613d8a2d9fc855073ce69c72c
+Description:  A tool for installing and managing Python packages.
+
+Package: python-setuptools
+Version: 7.0-1
+Depends: libc, python
+Source: package/lang/python-setuptools
+Section: lang
+Architecture: brcm2708
+Installed-Size: 203077
+Filename: python-setuptools_7.0-1_brcm2708.ipk
+Size: 203749
+MD5Sum: e0d6b9f6061ffc157bf61c5ed71c6215
+SHA256sum: 27c62206e3267f3faccab0de4dc424c6c10f5bc162a5b76e7c9c437c6df4cdf6
+Description:  Easily download, build, install, upgrade, and uninstall Python packages
+
+Package: python3-base
+Version: 3.4.2-1
+Depends: libc, libpthread, zlib, libffi
+Source: package/lang/python3
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 979292
+Filename: python3-base_3.4.2-1_brcm2708.ipk
+Size: 965690
+MD5Sum: 732daad54ea49d1912bf081aabe97acb
+SHA256sum: 30d11c7e75e185303c2e297082ad6917e2e24c86bddbc2f01966b19d857fec8b
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python3
+Version: 3.4.2-1
+Depends: libc, python3-base, libncursesw, libbz2, libgdbm, libsqlite3, libdb47, libopenssl
+Source: package/lang/python3
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 4776237
+Filename: python3_3.4.2-1_brcm2708.ipk
+Size: 4751277
+MD5Sum: 7e908214ca2da15c55edc4be79869bf7
+SHA256sum: ce1bbb6cc57e2f6420845ef2e3516af05954fef87c435b8a40d644c544521a86
+Description:  This package contains the (almost) full Python install.
+
+Package: python
+Version: 2.7.8-3
+Depends: libc, python-base, libncursesw, libbz2, libgdbm, libsqlite3, libexpat, libdb47
+Source: package/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: brcm2708
+Installed-Size: 2862647
+Filename: python_2.7.8-3_brcm2708.ipk
+Size: 2838164
+MD5Sum: 952f900b48d2f165edadd2203d7caac1
+SHA256sum: 5a1416af39f6ff3d1885ea2a5f2b96785d75e26f77ebf1f0a1157900d9683170
+Description:  This package contains the (almost) full Python install.
+
+Package: rpi-helloaudio
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 14917
+Filename: rpi-helloaudio_20141126-1_brcm2708.ipk
+Size: 15378
+MD5Sum: 19350764f228058c9e4699405d0f4c1e
+SHA256sum: 268edae1ec2cf757970eca4ffab2dd323c0edf457345c86856fc024ab3ab8b04
+Description:  rpi-helloaudio demo
+
+Package: rpi-hellodispmanx
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 2261
+Filename: rpi-hellodispmanx_20141126-1_brcm2708.ipk
+Size: 2780
+MD5Sum: 6c4c1e82f8c852290675183da45e7089
+SHA256sum: 92d0ce7f62a79927b2da6430bf7719c35a5d3289827660270b72c7afede3a902
+Description:  rpi-hellodispmanx demo
+
+Package: rpi-helloencode
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 12403
+Filename: rpi-helloencode_20141126-1_brcm2708.ipk
+Size: 12924
+MD5Sum: 1a0f0202ee3864109c8560dbec95a4fb
+SHA256sum: 0dc35d2931cfc386336672055b855b7eb217d4dd2dbf1ebf14d2684659a923a4
+Description:  rpi-helloencode demo
+
+Package: rpi-hellofont
+Version: 20141126-1
+Depends: libc, rpi-userland, libfreetype, zlib
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 15002
+Filename: rpi-hellofont_20141126-1_brcm2708.ipk
+Size: 15441
+MD5Sum: 12a9d0e9f11e4165666bd548023b85f1
+SHA256sum: 66be5f8918d6e99b0ee8a8e1dbcf8b1746e4833c5495dbb682f4aedd745a2185
+Description:  rpi-hellofont demo
+
+Package: rpi-hellojpeg
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 13228
+Filename: rpi-hellojpeg_20141126-1_brcm2708.ipk
+Size: 13701
+MD5Sum: 34be6a1aa78106c3ab2c6e1ec8c0019c
+SHA256sum: 37668b462604e9a3f045bfeb6136459abd33160c08e1658d965fdebf506e5438
+Description:  rpi-hellojpeg demo
+
+Package: rpi-helloteapot
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 121581
+Filename: rpi-helloteapot_20141126-1_brcm2708.ipk
+Size: 102247
+MD5Sum: 0058560e631276906e29633ba2bcbc69
+SHA256sum: 6bcf1086430c4c3f3d79e4fb27f7fbef68c0d462bf2a6a206346d84f950a85f8
+Description:  rpi-helloteapot demo
+
+Package: rpi-hellotiger
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 35957
+Filename: rpi-hellotiger_20141126-1_brcm2708.ipk
+Size: 36462
+MD5Sum: b53adde5e41767bd1c234d5c26ddc327
+SHA256sum: 55beec44227f474cc72e90768f49a17f8dabaf7c6063515fd150fb24bc7e160c
+Description:  rpi-hellotiger demo
+
+Package: rpi-hellotriangle2
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 5662
+Filename: rpi-hellotriangle2_20141126-1_brcm2708.ipk
+Size: 6124
+MD5Sum: bdf4be44a0c7bf072f9d302db93463e6
+SHA256sum: 339bb4372829bebd4b66e4188843a72792119727678d01ad3694e880a16c1096
+Description:  rpi-hellotriangle2 demo
+
+Package: rpi-hellotriangle
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 123471
+Filename: rpi-hellotriangle_20141126-1_brcm2708.ipk
+Size: 124117
+MD5Sum: 3d3c15a08942ace0b87a2f73e56a14bc
+SHA256sum: a9ec5b7a62157cf78b878ac6e1196c1cafb218ed825429720d41b9211d212619
+Description:  rpi-hellotriangle demo
+
+Package: rpi-hellovideo
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 30999185
+Filename: rpi-hellovideo_20141126-1_brcm2708.ipk
+Size: 31004741
+MD5Sum: 8aa014efdf09039eecd220d636cced67
+SHA256sum: 3f20de791c285ebb3434bcd794bd953cf14445f67e613e0e7a0281c81310e4ee
+Description:  rpi-hellovideo demo
+
+Package: rpi-hellovideocube
+Version: 20141126-1
+Depends: libc, rpi-userland, rpi-hellovideo
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 14348
+Filename: rpi-hellovideocube_20141126-1_brcm2708.ipk
+Size: 14748
+MD5Sum: 4bdb909225fdc2467511ba4c6030c946
+SHA256sum: 06da7560e0faed2ea3a4c7b453cbcb8e39fcd3fb3abf242e4306796c13b17bb6
+Description:  rpi-hellovideocube demo
+
+Package: rpi-hellowayland
+Version: 20141126-1
+Depends: libc, rpi-userland, rpi-hellotriangle, libwayland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 5256
+Filename: rpi-hellowayland_20141126-1_brcm2708.ipk
+Size: 5749
+MD5Sum: 87ec9d4b60ad5ec6ceeb038610cff74c
+SHA256sum: 7b19429e982a5cfd5ee95252c3421a4d78fc0f0679506fb516498235bb2440e8
+Description:  rpi-hellowayland demo
+
+Package: rpi-helloworld
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 1102
+Filename: rpi-helloworld_20141126-1_brcm2708.ipk
+Size: 1607
+MD5Sum: 631174c610faf9525ca554e3ef624373
+SHA256sum: 532a1433ff05dd52a723f6f38be0025429a10e15d4d60f9051a1535223f1189f
+Description:  rpi-helloworld demo
+
+Package: rpi-raspicam
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 77816
+Filename: rpi-raspicam_20141126-1_brcm2708.ipk
+Size: 77743
+MD5Sum: e068d5edf4b0c6d25d68792a76e0048b
+SHA256sum: 0367905bfcd4b7eef09289d79fb51f9469ea43c89c960c20f8bef12214f6c700
+Description:  raspicam
+
+Package: rpi-tvservice
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 19135
+Filename: rpi-tvservice_20141126-1_brcm2708.ipk
+Size: 19637
+MD5Sum: 60eb6db0ee616341e2bcab2fe2e990d8
+SHA256sum: cd57011714eeaf13e00c31b8c58773b1f16740370cc427db94f20f686e97c82f
+Description:  tvservice
+
+Package: rpi-userland
+Version: 20141126-1
+Depends: libc, libwayland, libpthread, librt
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 536727
+Filename: rpi-userland_20141126-1_brcm2708.ipk
+Size: 535659
+MD5Sum: 2f70fde67142ab4cdeb0e36398d49244
+SHA256sum: f839c5456dff3840df25ffc895bbcf1ca07ef8e1e6e361d3c28f30ebfd82ebdf
+Description:  Raspberry PI userland libraries for interfaces EGL, mmal, GLESv2,
+ vcos, openmaxil, vchiq_arm, bcm_host, WCF and OpenVG
+ with Wayland EGL support.
+
+Package: rpi-vcgencmd
+Version: 20141126-1
+Depends: libc, rpi-userland
+Source: package/rpi-userland
+Section: rpi
+Architecture: brcm2708
+Installed-Size: 4322
+Filename: rpi-vcgencmd_20141126-1_brcm2708.ipk
+Size: 4803
+MD5Sum: eb2f2eaadcc864f7024386a1286d31cf
+SHA256sum: 25136f6aa4a7c95755d89366675cfdd7fb8e5ee64bf930cf7423dc2712e0fe79
+Description:  vcgencmd
+
+Package: ruby-bigdecimal
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 29477
+Filename: ruby-bigdecimal_2.1.5-1_brcm2708.ipk
+Size: 30072
+MD5Sum: 3c1f3479a237cd2cf81bcf9abb8f285d
+SHA256sum: 9698a6bb7323201eb26d7b6b4d3ed2f9295752c80636d47e6e064692959a35c0
+Description:  Provides bigdecimal* files
+ 
+
+Package: ruby-cgi
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-filelib, ruby-pstore
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 28415
+Filename: ruby-cgi_2.1.5-1_brcm2708.ipk
+Size: 29050
+MD5Sum: acf0ed82ae715a62950cbb9dbc1f362a
+SHA256sum: e5dc99aec729e7fa0af61dcf73c9e2259b2017a8e733bf3b534aea9af42c3c39
+Description:  Ruby CGI support toolkit
+
+Package: ruby-csv
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-patterns, ruby-datetime, ruby-enc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 22672
+Filename: ruby-csv_2.1.5-1_brcm2708.ipk
+Size: 23273
+MD5Sum: 6b99b9615c468e8fa6a829be15d1678e
+SHA256sum: fe8488a404ed5ae78ff2b19b1c46ac05e36e83c1c9a98a770a7c4727514d866c
+Description:  Provides csv.rb file
+ 
+
+Package: ruby-datetime
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 69489
+Filename: ruby-datetime_2.1.5-1_brcm2708.ipk
+Size: 70084
+MD5Sum: 3cdec842be5f25a8b183dad35bc53be5
+SHA256sum: e2e6b2d8e4acc7675ef8b8103d8026b517eb327aaf9a47077f44e8b0ebbccd80
+Description:  Provides date.rb and time.rb
+ 
+
+Package: ruby-dbm
+Version: 2.1.5-1
+Depends: libc, ruby, libdb47
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 105
+Filename: ruby-dbm_2.1.5-1_brcm2708.ipk
+Size: 742
+MD5Sum: aacacfd4fa9ec9fb96366be7ebab2d50
+SHA256sum: db68b850f1d5087b0ea4c926e5f09fa7868813894ac5906280c54c89b854ecf4
+Description:  The DBM class provides a wrapper to a Unix-style dbm or Database Manager library.
+ This package provides dbm.so file.
+ 
+
+Package: ruby-debuglib
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-multithread, ruby-prettyprint
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 29464
+Filename: ruby-debuglib_2.1.5-1_brcm2708.ipk
+Size: 30074
+MD5Sum: 62047d1f81c122fbc72821a0dd6ab201
+SHA256sum: f3b7b52e65bdc6d2e2dcdf54ee04fa00868c0fbb6d5ab9f29332dc0933333dfe
+Description:  Provides files for debugging:
+ - benchmark.rb
+ - debug.rb
+ - objspace.so
+ - profile.rb
+ - profiler.rb
+ - tracer.rb
+ 
+
+Package: ruby-digest
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 25678
+Filename: ruby-digest_2.1.5-1_brcm2708.ipk
+Size: 26304
+MD5Sum: 4aaff9365f5ad6dd0493d5df70b2858c
+SHA256sum: 2d77deec37a89ba361e0b9449d5733617125673bcd04bb8891e316be437b0e1b
+Description:  Provides digest* files. Can be configured to use OpenSSL or
+ bundled hash functions.
+ 
+
+Package: ruby-dl
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-fiddle, ruby-multithread
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 73119
+Filename: ruby-dl_2.1.5-1_brcm2708.ipk
+Size: 71071
+MD5Sum: 0b00be36ed8a75d4a50c5fec1fb1144b
+SHA256sum: 4d0ff86b37cdfd18d1e8b51a534694d65c0c9b11f9a5dad338db30d995208e99
+Description:  Provides dl* files. This is deprecated, use fiddle.
+ 
+
+Package: ruby-drb
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-filelib, ruby-patterns, ruby-socket
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 24531
+Filename: ruby-drb_2.1.5-1_brcm2708.ipk
+Size: 25160
+MD5Sum: d1b254c09a2873cf5bd8a347f3759d08
+SHA256sum: c6373f9fa89eb4d088a91a2f785a774a1f3ffdc6fb1310bc9b4efb7fc031ebaf
+Description:  Provides drb* files
+ 
+
+Package: ruby-enc-extra
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-enc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 1376771
+Filename: ruby-enc-extra_2.1.5-1_brcm2708.ipk
+Size: 1245977
+MD5Sum: 2293abe70ae1e3042653dc98809e470c
+SHA256sum: 8fbdd52bb63c7e07b1cc9f8fcddedf5695aac55ca9c8999d9c15e030f459f560
+Description:  Provides extra encodings not provided by ruby-enc:
+ - enc/big5.so
+ - enc/cp949.so
+ - enc/emacs_mule.so
+ - enc/euc_kr.so
+ - enc/euc_tw.so
+ - enc/gb18030.so
+ - enc/gb2312.so
+ - enc/gbk.so
+ - enc/iso_8859_10.so
+ - enc/iso_8859_11.so
+ - enc/iso_8859_13.so
+ - enc/iso_8859_14.so
+ - enc/iso_8859_15.so
+ - enc/iso_8859_16.so
+ - enc/iso_8859_2.so
+ - enc/iso_8859_3.so
+ - enc/iso_8859_4.so
+ - enc/iso_8859_5.so
+ - enc/iso_8859_6.so
+ - enc/iso_8859_7.so
+ - enc/iso_8859_8.so
+ - enc/iso_8859_9.so
+ - enc/koi8_r.so
+ - enc/koi8_u.so
+ - enc/shift_jis.so
+ - enc/trans/big5.so
+ - enc/trans/chinese.so
+ - enc/trans/emoji.so
+ - enc/trans/emoji_iso2022_kddi.so
+ - enc/trans/emoji_sjis_docomo.so
+ - enc/trans/emoji_sjis_kddi.so
+ - enc/trans/emoji_sjis_softbank.so
+ - enc/trans/escape.so
+ - enc/trans/gb18030.so
+ - enc/trans/gbk.so
+ - enc/trans/iso2022.so
+ - enc/trans/japanese.so
+ - enc/trans/japanese_euc.so
+ - enc/trans/japanese_sjis.so
+ - enc/trans/korean.so
+ - enc/trans/single_byte.so
+ - enc/trans/transdb.so
+ - enc/trans/utf8_mac.so
+ - enc/trans/utf_16_32.so
+ - enc/windows_1251.so
+ - enc/windows_31j.so
+ 
+
+Package: ruby-enc
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 9483
+Filename: ruby-enc_2.1.5-1_brcm2708.ipk
+Size: 10228
+MD5Sum: 0bbe597f4a97b1ee7f42fbcde289a8a6
+SHA256sum: ed61285f57e5da87189c1addce9bc49a2562fd53a1a5a146d32c07194e002c1a
+Description:  Provides ruby encoding library for encodings used directly by
+ libraries in Ruby Standard Library:
+ - enc/encdb.so
+ - enc/euc_jp.so
+ - enc/iso_8859_1.so
+ - enc/utf_16be.so
+ - enc/utf_16le.so
+ - enc/utf_32be.so
+ - enc/utf_32le.so
+ FYI: ASCII-8BIT, UTF-7, UTF-8 and US-ASCII are already in Core.
+ 
+
+Package: ruby-erb
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-cgi
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 9500
+Filename: ruby-erb_2.1.5-1_brcm2708.ipk
+Size: 10104
+MD5Sum: 30a89e763256df0303992f466616fa1b
+SHA256sum: 40da4416f7810da8e659ec94f7e5fe14eeaa6f1497c4d308c9d753600df312e1
+Description:  Provides erb* files
+ 
+
+Package: ruby-fiddle
+Version: 2.1.5-1
+Depends: libc, ruby, libffi
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 19169
+Filename: ruby-fiddle_2.1.5-1_brcm2708.ipk
+Size: 19785
+MD5Sum: c41c30de9a84c73a359a6edd185cc92e
+SHA256sum: 4a1d7bab00e0875361231e61557d3bbd6ffef44c38b302cc39f52c9f1d03b577
+Description:  Provides fiddle* files
+ 
+
+Package: ruby-filelib
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-multithread, ruby-enc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 29704
+Filename: ruby-filelib_2.1.5-1_brcm2708.ipk
+Size: 30402
+MD5Sum: 9c33c0e34480bbfb85ce2c401184775d
+SHA256sum: 20d587d303003391e217defbfb219f5abe7fba8493a49081675f86231e8a925d
+Description:  Provides filesystem interaction files, including
+ path and temp:
+ - fileutils.rb
+ - find.rb
+ - pathname.rb
+ - pathname.so
+ - tempfile.rb
+ - tmpdir.rb
+ 
+
+Package: ruby-gdbm
+Version: 2.1.5-1
+Depends: libc, ruby, libgdbm
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 104
+Filename: ruby-gdbm_2.1.5-1_brcm2708.ipk
+Size: 672
+MD5Sum: dd8a654df2587a4f06a851e3cab001c3
+SHA256sum: 40ad4c90cac1cdd09a136ae391d594b6823809566c60fc3ef51ecebee484b8e6
+Description:  Provides gdbm* files
+ 
+
+Package: ruby-gems
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-net, ruby-rdoc, ruby-zlib
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 213669
+Filename: ruby-gems_2.1.5-1_brcm2708.ipk
+Size: 214436
+MD5Sum: 50f01527a9179aac066ee2e7c6a307e7
+SHA256sum: 67f998aae65a2ce47264ddde1afe5ffc9d104ebc6d39ffc6a03caf8b7fe754bf
+Description:  Provides rubygems for gems usage, download and installation
+ 
+
+Package: ruby-io-console
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 4562
+Filename: ruby-io-console_2.1.5-1_brcm2708.ipk
+Size: 5153
+MD5Sum: e3e21db47c2bd9a739479e874c221edf
+SHA256sum: 521a987eb169c5a0f18e7db22a2ba9138616945541ee9130893abb7f3a63d0d6
+Description:  Provides io-console* files
+ 
+
+Package: ruby-irb
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-debuglib, ruby-filelib, ruby-math
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 44208
+Filename: ruby-irb_2.1.5-1_brcm2708.ipk
+Size: 44903
+MD5Sum: d93fb94ba25a11cc3bd6109a5df5530a
+SHA256sum: 58ce5ef5c842942838bd4540b29ffb94168706fd4d5fa7d4b0c36356592fa358
+Description:  Provides irb* files
+ 
+
+Package: ruby-json
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-datetime, ruby-misc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 26281
+Filename: ruby-json_2.1.5-1_brcm2708.ipk
+Size: 26845
+MD5Sum: 33d4d8d1216d3e4e1da604ec8ad67dc5
+SHA256sum: 1d9dbca00a28d172e700a442f1d6139c305af4f3f1e9c649c78e88ae4b94ea65
+Description:  Provides json* files
+ 
+
+Package: ruby-logger
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-multithread
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 13221
+Filename: ruby-logger_2.1.5-1_brcm2708.ipk
+Size: 13841
+MD5Sum: be321d76eda42937d47deb34c2464f58
+SHA256sum: 98dbf3b1ae61e1e9db146555021b043915ae798b6347ad1646312d55c6820ed4
+Description:  Provides log library, including syslog:
+ - logger.rb
+ - syslog.so
+ - syslog/logger.rb
+ 
+
+Package: ruby-math
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-patterns
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 26681
+Filename: ruby-math_2.1.5-1_brcm2708.ipk
+Size: 27335
+MD5Sum: a142c57f9b2dde0927ff3444fe4b4fce
+SHA256sum: 7394d8402d23f4c6e3222b614a02451f7103a125781955edd42ddb0f155f81c0
+Description:  Provides math related files:
+ - cmath.rb
+ - complex.rb
+ - mathn.rb
+ - mathn/complex.so
+ - mathn/rational.so
+ - matrix.rb
+ - matrix/eigenvalue_decomposition.rb
+ - matrix/lup_decomposition.rb
+ - prime.rb
+ - rational.rb
+ 
+
+Package: ruby-minitest
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-filelib, ruby-optparse, ruby-prettyprint, ruby-rbconfig
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 20027
+Filename: ruby-minitest_2.1.5-1_brcm2708.ipk
+Size: 20662
+MD5Sum: 695eb43eb1ea83556096a45f38f01f72
+SHA256sum: fd861df7ff9de8ade1196d8ed9879244124835808b75af18b3889251e5d16230
+Description:  Provides minitest* files
+ 
+
+Package: ruby-misc
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 65407
+Filename: ruby-misc_2.1.5-1_brcm2708.ipk
+Size: 66168
+MD5Sum: 28fd0d5f6204c8881311652af80aa83f
+SHA256sum: 9ef0f0d5d24232d8fae5b4cdc57c9c518742ed930350c04537e384036d1cc50e
+Description:  This package contains miscellaneous files from stdlib
+ not splitted in other ruby packages like stringio:
+ - English.rb
+ - abbrev.rb
+ - base64.rb
+ - continuation.so
+ - coverage.so
+ - delegate.rb
+ - e2mmap.rb
+ - etc.so
+ - expect.rb
+ - fcntl.so
+ - fiber.so
+ - getoptlong.rb
+ - open3.rb
+ - ostruct.rb
+ - pty.so
+ - scanf.rb
+ - securerandom.rb
+ - set.rb
+ - shellwords.rb
+ - stringio.so
+ - strscan.so
+ - tsort.rb
+ - weakref.rb
+ 
+
+Package: ruby-mkmf
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-filelib, ruby-optparse, ruby-rbconfig
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 26330
+Filename: ruby-mkmf_2.1.5-1_brcm2708.ipk
+Size: 26906
+MD5Sum: e7b18b2265e8376ad9cd6c0ec03112a5
+SHA256sum: ebf4ebfc25781dc267fd586c37475f2f63a260b64c08ae0e068a3359b05c0a17
+Description:  Provides mkmf* files
+ 
+
+Package: ruby-multithread
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-misc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 13218
+Filename: ruby-multithread_2.1.5-1_brcm2708.ipk
+Size: 13910
+MD5Sum: 0966b58b41ffe1382bf5a859ccb6d4ce
+SHA256sum: bdaf05acd211258d5c501c8595364a94bdebbd6d212180397cd974fcca21de4c
+Description:  Provides files for multithread usage:
+ - io/nonblock.so
+ - io/wait.so
+ - thread.so (FYI, Thread is a core class)
+ - monitor.rb
+ - mutex_m.rb
+ - sync.rb
+ - thwait.rb
+ - timeout.rb
+ 
+
+Package: ruby-net
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-datetime, ruby-digest, ruby-filelib, ruby-uri
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 91155
+Filename: ruby-net_2.1.5-1_brcm2708.ipk
+Size: 91875
+MD5Sum: fc19a1d5d2886a96eab469d34bb476b8
+SHA256sum: 56bb19eb5f51e68e0109e5d18fe54f3403d4add5475095bd377de09b73b64d3f
+Description:  Provides net* files
+ 
+
+Package: ruby-nkf
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-enc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 126949
+Filename: ruby-nkf_2.1.5-1_brcm2708.ipk
+Size: 126030
+MD5Sum: 43f1be7bb863ce0ead63b551d0044f3f
+SHA256sum: 5547281fb807994f4628b6299d1696aefda0bba4100968c2f1f2fe62a0a5491f
+Description:  Provides nkf* files
+ 
+
+Package: ruby-openssl
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-enc, libopenssl, ruby-misc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 114617
+Filename: ruby-openssl_2.1.5-1_brcm2708.ipk
+Size: 113429
+MD5Sum: 44c0bc50b79213760cd686ba39bb295a
+SHA256sum: 9ba6215c76c7591356135b08ebb6c90f8aeab5ab44425b802021f8afbcc18c60
+Description:  Provides openssl* files
+ 
+
+Package: ruby-optparse
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-misc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 16358
+Filename: ruby-optparse_2.1.5-1_brcm2708.ipk
+Size: 16930
+MD5Sum: 6d114a7356ad7c7ef83704b29a229837
+SHA256sum: 2ddac0d951438a63635eeb959dd97af78b5be9fd7c9f370cef2462954e51a4af
+Description:  Provides optparse* files
+ 
+
+Package: ruby-patterns
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-multithread
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 6015
+Filename: ruby-patterns_2.1.5-1_brcm2708.ipk
+Size: 6634
+MD5Sum: bbf4090f03f048347fd84c1617ed1cfe
+SHA256sum: bbff48f1e2296cd10f4e7e8736e9213c35326c10dd00cd75fbb64ab6648a8d04
+Description:  Provides design patterns helpers files:
+ - forwardable.rb
+ - observer.rb
+ - singleton.rb
+ 
+
+Package: ruby-prettyprint
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-misc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 8893
+Filename: ruby-prettyprint_2.1.5-1_brcm2708.ipk
+Size: 9529
+MD5Sum: ca5c1ccd1f34fe8286039d620dfac851
+SHA256sum: 0807d99f9cbd47c9000fc4237e8e72cbd6ce112d0709d9d876f411ed308cefe3
+Description:  Provides Pretty Print library:
+ - pp.rb
+ - prettyprint.rb
+ 
+
+Package: ruby-pstore
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-digest, ruby-enc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 4963
+Filename: ruby-pstore_2.1.5-1_brcm2708.ipk
+Size: 5579
+MD5Sum: 22d671b6071e5f7cad368c3259ebefb0
+SHA256sum: de58bd4fce8244b81a65fa84b8128b1e4e34f43e7e03eb99ed6d253f214363d8
+Description:  Provides pstore.rb file
+ 
+
+Package: ruby-psych
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-bigdecimal, ruby-datetime, ruby-misc, ruby-enc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 64979
+Filename: ruby-psych_2.1.5-1_brcm2708.ipk
+Size: 65600
+MD5Sum: c775db04754ba88deffde875890fa8d3
+SHA256sum: 132a0c5f5ab896a89966847e49eb6b6454d7165c5956d01e2b5ceaf161cca258
+Description:  Provides psych* files
+ 
+
+Package: ruby-racc
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 10827
+Filename: ruby-racc_2.1.5-1_brcm2708.ipk
+Size: 11426
+MD5Sum: b56cf067b61e3c589a5cacbbf3743bf7
+SHA256sum: e3e360ad213d1f69355fd4e6414ed178e3644d24a683959a7ef5f76fcb3d34ca
+Description:  Provides racc* files
+ 
+
+Package: ruby-rake
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-datetime, ruby-filelib, ruby-optparse, ruby-patterns, ruby-rbconfig
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 39942
+Filename: ruby-rake_2.1.5-1_brcm2708.ipk
+Size: 40720
+MD5Sum: bb8ced07a5e3a8285f77fb9b5d6c4b80
+SHA256sum: a134e13550c71520d2563a311a912468063ff2cf82308053781ed0767aa2b54c
+Description:  Provides rake* files
+ 
+
+Package: ruby-rbconfig
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 5838
+Filename: ruby-rbconfig_2.1.5-1_brcm2708.ipk
+Size: 6434
+MD5Sum: 1fba79b40405d7223beabbed360547fe
+SHA256sum: 504b9b81051d60023b6046048d2d63617f6dde365aa9f3fbe4d88bcea80b2917
+Description:  Provides rbconfig file
+ 
+
+Package: ruby-rdoc
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-erb, ruby-irb, ruby-json, ruby-racc, ruby-rake, ruby-yaml
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 555144
+Filename: ruby-rdoc_2.1.5-1_brcm2708.ipk
+Size: 520412
+MD5Sum: 8698130055ed37b9ee4cd3e27ef0df7b
+SHA256sum: e686caac3f96260505a163174f8962ef217ea3b1858aa58195e792c4e17ba20d
+Description:  Provides rdoc* and ri files
+ 
+
+Package: ruby-readline
+Version: 2.1.5-1
+Depends: libc, ruby, libncurses, libreadline
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 9377
+Filename: ruby-readline_2.1.5-1_brcm2708.ipk
+Size: 9975
+MD5Sum: 215a079ef812dfd1e4bcc3b24091ea1f
+SHA256sum: 6d421d49e8dc7a23a6ccc9c6f14ca4b91e0b87e3abe89efd58f96d4124fb0766
+Description:  Provides readline* files
+ 
+
+Package: ruby-rexml
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-patterns, ruby-enc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 69724
+Filename: ruby-rexml_2.1.5-1_brcm2708.ipk
+Size: 70437
+MD5Sum: 6604be6d1f6bf90646935ce4017be532
+SHA256sum: d0123b7b73925d840e8ca09269efd7002a1ed25b2b211ac9f7e3e385eb8f2765
+Description:  Provides rexml* files
+ 
+
+Package: ruby-rinda
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-drb
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 9474
+Filename: ruby-rinda_2.1.5-1_brcm2708.ipk
+Size: 10107
+MD5Sum: 11c3052bfe3ec42221fcba76110dce44
+SHA256sum: cd215d450bc3448bcba9aac5ca587bc7d44960a0c0613018da89c719b9352fa7
+Description:  Provides rinda* files
+ 
+
+Package: ruby-ripper
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 60556
+Filename: ruby-ripper_2.1.5-1_brcm2708.ipk
+Size: 60922
+MD5Sum: 5edcb95e4c6cf7423d61f253a75b37c6
+SHA256sum: e6e5c9e6af8768d13c962d6601b870b98ee2c3cea89e40c3cacb886fcafd69af
+Description:  Provides ripper* files
+ 
+
+Package: ruby-rss
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-net, ruby-nkf, ruby-rexml
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 47420
+Filename: ruby-rss_2.1.5-1_brcm2708.ipk
+Size: 48056
+MD5Sum: 3ede00b324277d329e9deb7874a79714
+SHA256sum: f5c5deddb9a35fa8505c135db050be8cf4fe6f39dd08a746ca1a0b7d3383b282
+Description:  Provides rss* files
+ 
+
+Package: ruby-sdbm
+Version: 2.1.5-1
+Depends: libc, ruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 8849
+Filename: ruby-sdbm_2.1.5-1_brcm2708.ipk
+Size: 9393
+MD5Sum: d35608e9edb67a274d0135dabef5e8a2
+SHA256sum: 05bbd8725b5785841501c1066d40c271644cd71ea446ce9474c0cc90bf8cb1ae
+Description:  Provides sdbm* files
+ 
+
+Package: ruby-shell
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-patterns
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 11994
+Filename: ruby-shell_2.1.5-1_brcm2708.ipk
+Size: 12611
+MD5Sum: 18d6ace427a69479b76f47855da5c986
+SHA256sum: 334ab8647620a9acbec1f154af7ea7b3fde1a58ad2c5999c46c52d4925116d09
+Description:  Provides shell* files
+ 
+
+Package: ruby-socket
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-multithread
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 84429
+Filename: ruby-socket_2.1.5-1_brcm2708.ipk
+Size: 84649
+MD5Sum: 3bc1f35a2814176ac428edb547700649
+SHA256sum: 96cd51da22afa2dc2a41e7a3ee986d01c50628ba263df32767e9fc07472dfb9b
+Description:  Provides socket-related files:
+ - gserver.rb
+ - ipaddr.rb
+ - resolv-replace.rb
+ - resolv.rb
+ - socket.rb
+ - socket.so
+ 
+
+Package: ruby-stdlib
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-misc, ruby-bigdecimal, ruby-cgi, ruby-csv, ruby-datetime, ruby-dbm, ruby-debuglib, ruby-digest, ruby-dl, ruby-drb, ruby-enc, ruby-enc-extra, ruby-erb, ruby-gdbm, ruby-gems, ruby-json, ruby-io-console, ruby-irb, ruby-fiddle, ruby-filelib, ruby-logger, ruby-math, ruby-minitest, ruby-mkmf, ruby-multithread, ruby-nkf, ruby-net, ruby-openssl, ruby-optparse, ruby-patterns, ruby-prettyprint, ruby-pstore, ruby-psych, ruby-racc, ruby-rake, ruby-rbconfig, ruby-rdoc, ruby-readline, ruby-rexml, ruby-rinda, ruby-ripper, ruby-rss, ruby-sdbm, ruby-shell, ruby-socket, ruby-testunit, ruby-uri, ruby-webrick, ruby-xmlrpc, ruby-yaml, ruby-zlib
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 104
+Filename: ruby-stdlib_2.1.5-1_brcm2708.ipk
+Size: 976
+MD5Sum: 0ab2532966ba44ede61f04f84667cf7c
+SHA256sum: 83206f44e4136d753bd8b0a35c6504ce2b7338bd35420d92da0020f6f415fda2
+Description:  This metapackage currently install all ruby-* packages,
+ providing a complete Ruby Standard Library.
+ 
+
+Package: ruby-testunit
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-minitest
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 12580
+Filename: ruby-testunit_2.1.5-1_brcm2708.ipk
+Size: 13179
+MD5Sum: b772a4a43754287f78ab92cc3b98344e
+SHA256sum: 0531da35251c72dc786a29eb8f5550b6e7c4c1840e3c7fa90418894c325a4b1b
+Description:  Provides test/unit* files
+ 
+
+Package: ruby-uri
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-socket, ruby-enc
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 25586
+Filename: ruby-uri_2.1.5-1_brcm2708.ipk
+Size: 26119
+MD5Sum: 28b40da1c26abe74d8a4b226a7157f99
+SHA256sum: 42628ede639f59dca1d66e20d74ee2d1b3afdd6c477cf5cc19bc0b9198989abd
+Description:  Provides uri* files
+ 
+
+Package: ruby-webrick
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-erb, ruby-net, ruby-patterns, ruby-rbconfig
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 50615
+Filename: ruby-webrick_2.1.5-1_brcm2708.ipk
+Size: 51329
+MD5Sum: 3b7ba2c44325d9fba870922319917ec0
+SHA256sum: e03e15b5f5af2c88f6c77eff6e28d9fe2de5131c1e0acf541968e35a1234cd9d
+Description:  Provides webrick* files
+ 
+
+Package: ruby-xmlrpc
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-rexml, ruby-webrick
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 24645
+Filename: ruby-xmlrpc_2.1.5-1_brcm2708.ipk
+Size: 25215
+MD5Sum: baa576644932b63ec84ec812ae99a55b
+SHA256sum: c98e66bcaae69fbc630ac56c7bbf3e2c0a464b56d05ba71c836ea09d56636f36
+Description:  Provides xmlrpc* files
+ 
+
+Package: ruby-yaml
+Version: 2.1.5-1
+Depends: libc, ruby, ruby-dbm, ruby-pstore, ruby-psych
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 3959
+Filename: ruby-yaml_2.1.5-1_brcm2708.ipk
+Size: 4567
+MD5Sum: 6d5f664f33bf2694e091520ddc5b2cf4
+SHA256sum: ea6b62511b9b8a198cca4d78ac716250051c1437d631838fc5dc76ff290c3627
+Description:  Provides yaml* files
+ 
+
+Package: ruby-zlib
+Version: 2.1.5-1
+Depends: libc, ruby, zlib
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 17682
+Filename: ruby-zlib_2.1.5-1_brcm2708.ipk
+Size: 18252
+MD5Sum: 6c86b85c9f87bea436019288a6bb248e
+SHA256sum: c95178ae1d6be937732d413668f4aa923b1306c775d9fc45a0c3338b503e1ab1
+Description:  Provides zlib* files
+ 
+
+Package: ruby
+Version: 2.1.5-1
+Depends: libc, libruby
+Source: package/lang/ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: brcm2708
+Installed-Size: 1290
+Filename: ruby_2.1.5-1_brcm2708.ipk
+Size: 2030
+MD5Sum: 3c0f64a59e4766c950944dbec6c9d2f7
+SHA256sum: 2dcd51b9fcb533dd67bb149bd1205dbf6484612000adb4268612a910f0616540
+Description:  Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text files
+ and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ 
+
+Package: simplejson
+Version: 3.6.5-1
+Depends: libc, python
+Source: package/lang/simplejson
+License: MIT
+Section: lang
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Architecture: brcm2708
+Installed-Size: 50132
+Filename: simplejson_3.6.5-1_brcm2708.ipk
+Size: 50802
+MD5Sum: 0212331aa7fa4088619478467998d6c7
+SHA256sum: 93c2ae3176b81a3ab9d8f5ac6b2d7b7df8b5fe3d1dcd7fac4491dcc0eceac4ee
+Description:  Simple, fast, extensible JSON encoder/decoder for Python
+
